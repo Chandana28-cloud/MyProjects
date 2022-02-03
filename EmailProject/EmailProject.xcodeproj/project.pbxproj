@@ -103,9 +103,8 @@
 			children = (
 				ADD7928C27A830DC002276D3 /* AppDelegate.swift */,
 				ADD7928E27A830DC002276D3 /* SceneDelegate.swift */,
-				ADD7929027A830DC002276D3 /* EmailViewController.swift */,
-				AD13EF4E27A8EDE900523141 /* ResultViewController.swift */,
-				ADD7929227A830DC002276D3 /* Main.storyboard */,
+				ADDE9DA627AA98C400D3183C /* View */,
+				ADDE9DA527AA98B300D3183C /* Controllers */,
 				ADD7929527A830DF002276D3 /* Assets.xcassets */,
 				ADD7929727A830DF002276D3 /* LaunchScreen.storyboard */,
 				ADD7929A27A830DF002276D3 /* Info.plist */,
@@ -128,6 +127,23 @@
 				ADD792AF27A830DF002276D3 /* EmailProjectUITestsLaunchTests.swift */,
 			);
 			path = EmailProjectUITests;
+			sourceTree = "<group>";
+		};
+		ADDE9DA527AA98B300D3183C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADD7929027A830DC002276D3 /* EmailViewController.swift */,
+				AD13EF4E27A8EDE900523141 /* ResultViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ADDE9DA627AA98C400D3183C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADD7929227A830DC002276D3 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
